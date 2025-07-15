@@ -4,6 +4,7 @@ import Banner from './components/banner/Banner'
 import Delivery from './components/delivery/Delivery'
 import Navbar from './components/navbar/Navbar'
 import Services from './components/services/Services'
+import Testimonial from './components/testimonial/Testimonial'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Awards />
       <Delivery />
+      <Testimonial />
     </>
   )
 }
