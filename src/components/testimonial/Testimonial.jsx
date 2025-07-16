@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../../Layout/Container'
 import TestimonialIcon from '../../assets/TestimonialIcon.png'
+import TestimonialSlider from './TestimonialSlider'
 
 const Testimonial = () => {
     return (
@@ -14,6 +15,9 @@ const Testimonial = () => {
                         <p className='font-secondary font-bold text-3xl text-primary'>TESTIMONIAL</p>
                         <h1 className='font-primary font-extrabold text-[39px] leading-[110%] mt-2.5 text-[#11111D]'>Our Awesome Clients</h1>
                     </div>
+                </div>
+                <div>
+                    <TestimonialSlider />
                 </div>
             </Container>
         </section>
